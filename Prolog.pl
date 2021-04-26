@@ -1,12 +1,12 @@
 move(1, A, B,_) :-  
     write('move top disk from'),  
-write(A),  
-write(' to '),  
-write(B),  
-p1.  
-move(P, A, B, C) :-  
-    P>1,  
-    S is P-1,  
+    write(A),  
+    write(' to '),  
+    write(B),  
+    n1.  
+move(N, A, B, C) :-  
+    N>1,  
+    S is N-1,  
     move(S, A, B, C),  
     move(1, A, B,_),  
     move(S, C, B, A).  
