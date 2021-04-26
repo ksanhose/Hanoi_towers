@@ -1,15 +1,15 @@
-move(1, A, B,_) :-  
+move(1, left, right) :-  
     write('move top disk from'),  
-    write(A),  
+    write(left),  
     write(' to '),  
-    write(B),  
+    write(right),  
     n1.  
-move(N, A, B, C) :-  
+move(N, left, right, center) :-  
     N>1,  
     S is N-1,  
-    move(S, A, B, C),  
-    move(1, A, B,_),  
-    move(S, C, B, A).  
+    move(S, left, right, center),  
+    move(1, left, right,_),  
+    move(S, center, left, right).  
 
 ?- move(3, left, right, center).  
 From left to right move top disk   
