@@ -36,7 +36,40 @@ From center to right move top disk
 From left to center move top disk
 From left to right move top disk
 From center to right move top disk
-  
+
+?- move(5, left, right, center) :-
+From left to right move top disk
+From left to center move top disk
+From right to center move top disk
+From left to right move top disk
+From center to left move top disk
+From center to right move top disk
+From left to right move top disk
+From left to center move top disk
+From right to center move top disk
+From right to left move top disk
+From center to left move top disk
+From right to center move top disk
+From left to right move top disk
+From left to center move top disk
+From right to center move top disk
+From left to right move top disk
+From center to left move top disk
+From center to right move top disk
+From left to right move top disk
+From center to left move top disk
+From right to center move top disk
+From right to left move top disk
+From center to left move top disk
+From center to right move top disk
+From left to right move top disk
+From left to center move top disk
+From right to center move top disk
+From left to right move top disk
+From center to left move top disk
+From center to right move top disk
+From left to right move top disk
+
 yes  
 
 move(3,left,right,center) if  
