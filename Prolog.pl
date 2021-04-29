@@ -19,6 +19,23 @@ From left to right move top disk
 From center to left move top disk  
 From center to right move top disk  
 From left to right move top disk  
+
+?- move(4, left, right, center) :-
+From left to center move top disk
+From left to right move top disk
+From center to right move top disk
+From left to center move top disk
+From right to left move top disk
+From right to center move top disk
+From left to center move top disk
+From left to right move top disk
+From center to right move top disk
+From center to left move top disk
+From right to left move top disk
+From center to right move top disk
+From left to center move top disk
+From left to right move top disk
+From center to right move top disk
   
 yes  
 
